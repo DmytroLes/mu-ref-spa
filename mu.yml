@@ -9,7 +9,7 @@ service:
   - /*
   pipeline:
     source:
-      repo: stelligent/mu-ref-spa
+      repo: DmytroLes/mu-ref-spa
 parameters:
   mu-pipeline-spa:
     MuImage: "aws/codebuild/docker:17.09.0"
