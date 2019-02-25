@@ -2,7 +2,6 @@
 
 A reference implementation for a Single Page App that uses a CloudFront distribution to serve static content from an S3 bucket, and dynamic content from a Go application running on ECS.
 
-
 ## The application
 
 The application uses the Monte Carlo method to approximate the value of Pi. Inside a square of size 2, a circle with radius 1 is inscribed. Random points are selected in the square. Some will fall inside the circle, and some will not. The ratio of points inside the circle to the total number of points can be used to estimate the value of Pi.
