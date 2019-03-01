@@ -3,7 +3,7 @@ environments:
 - name: production
 service:
   name: spa
-  port: 8080
+  port: 8081
   healthEndpoint: /api
   pathPatterns:
   - /*

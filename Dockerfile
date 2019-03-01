@@ -9,4 +9,4 @@ RUN apk --no-cache add ca-certificates
 WORKDIR /root/
 COPY --from=builder /go/src/github.com/lhitchon/mu-ref-spa/app .
 CMD ["./app"]
-EXPOSE 8080
+EXPOSE 8081
